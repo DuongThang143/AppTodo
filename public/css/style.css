@@ -1,0 +1,31 @@
+body {
+    background-image: url('/public/images/01.jpg');
+}
+
+#form-todo {
+    width: 500px;
+    margin: 50px auto;
+}
+
+#form-todo input[type="text"],
+#form-todo textarea {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+#job-list {
+    min-height: 200px;
+    height: initial;
+    /*overflow: auto;*/
+}
+
+#job-list li {
+    border: 1px solid #8B8B8B;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+    background: rgba(70, 172, 23, 0.5);
+    color: rgb(3, 3, 3);
+    box-shadow: 1px 2px 5px rgba(46, 104, 19, 0.5);
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/public/js/bootstrap.min.js"></script>
+    <script src="/public/js/underscore-min.js"></script>
+    <script src="/public/js/mustache.js"></script>
+    <script src="/public/js/backbone-min.js"></script>
+    <script src="/public/js/main.js"></script>
+
+    <script id="template-item-job" type="text/template">
+        <div>{{ name }}<span class="remove-job close pull-right">&times;</span></div>
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="form-todo" class="form">
+            <div class="form-group">
+                <input id="job-name" class="form-control" type="text" name="job_name" placeholder="Việc cần làm">
+            </div>
+            <div class="form-group">
+                <ul id="job-list" class="form-control list-unstyled" name="job_list"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
